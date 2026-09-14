@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebMint — Modern Websites for Growing Businesses</title>
+  <meta name="description" content="WebMint designs and builds fast, modern websites for ambitious businesses — from landing pages to full custom web applications.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WebMint — Modern Websites for Growing Businesses">
+  <meta property="og:description" content="WebMint designs and builds fast, modern websites for ambitious businesses — from landing pages to full custom web applications.">
+  <meta property="og:image" content="/assets/images/og-cover.jpg">
+  <meta property="og:url" content="https://www.webmint.studio">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="Assets/webmint-icon.svg">
+  <link rel="canonical" href="https://www.webmint.studio">
+  <meta name="theme-color" content="#142725">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="siteNav">
+    <div class="nav__inner container">
+      <a href="#top" class="nav__brand" aria-label="WebMint — home">
+        <span class="nav__mark" aria-hidden="true">
+          <img src="Assets/webmint-icon.svg" alt="WebMint Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        </span>
+        <span class="nav__wordmark">WebMint</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="#services">Services</a>
+        <!-- <a href="#work">Work</a> -->
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="https://wa.me/917001810517" target="_blank" rel="noopener noreferrer" class="btn btn--nav">Let's Talk <span aria-hidden="true">→</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" data-state="closed">
+      <nav aria-label="Mobile">
+        <a href="#top">Home</a>
+        <a href="#services">Services</a>
+        <!-- <a href="#work">Work</a> -->
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="https://wa.me/917001810517" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--block">Let's Talk <span aria-hidden="true">→</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__kicker">Web Development &amp; Digital Experience Agency</p>
+          <h1 class="hero__title">
+            Building better websites for better <span class="hero__title-accent">businesses.</span>
+          </h1>
+          <p class="hero__desc">
+            Modern, high-performance websites designed to help ambitious businesses
+            build their presence, connect with customers and grow online.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Start a Project <span aria-hidden="true">→</span></a>
+            <a href="#about-us" class="btn btn--secondary">About Us</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__glow"></div>
+
+          <div class="browser-mock">
+            <div class="browser-mock__bar">
+              <span class="browser-mock__dot"></span>
+              <span class="browser-mock__dot"></span>
+              <span class="browser-mock__dot"></span>
+              <span class="browser-mock__url">webmint.agency</span>
+            </div>
+            <div class="browser-mock__body">
+              <div class="browser-mock__nav">
+                <span class="browser-mock__logo"></span>
+                <span class="browser-mock__navline"></span>
+                <span class="browser-mock__navline"></span>
+                <span class="browser-mock__navpill"></span>
+              </div>
+              <div class="browser-mock__hero">
+                <span class="browser-mock__line browser-mock__line--lg"></span>
+                <span class="browser-mock__line browser-mock__line--lg browser-mock__line--sm"></span>
+                <span class="browser-mock__line browser-mock__line--body"></span>
+                <span class="browser-mock__cta"></span>
+              </div>
+              <div class="browser-mock__grid">
+                <span class="browser-mock__card"></span>
+                <span class="browser-mock__card"></span>
+                <span class="browser-mock__card"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="phone-mock">
+            <div class="phone-mock__notch"></div>
+            <div class="phone-mock__body">
+              <span class="phone-mock__line phone-mock__line--lg"></span>
+              <span class="phone-mock__line"></span>
+              <span class="phone-mock__block"></span>
+              <span class="phone-mock__block phone-mock__block--sm"></span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY WEBMINT ============ -->
+    <section class="why" id="about">
+      <div class="container why__inner">
+        <div class="why__statement">
+          <h2 class="why__title">
+            We don't just build websites.<br>
+            <span>We build digital experiences.</span>
+          </h2>
+          <p class="why__desc">
+            Every project starts with your business, not a template. That's what separates
+            a website that just exists from one that actually works for you.
+          </p>
+        </div>
+
+        <ul class="principles">
+          <li class="principle">
+            <span class="principle__num">01</span>
+            <h3>Strategy First</h3>
+            <p>We understand your business before we start designing.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">02</span>
+            <h3>Built Around You</h3>
+            <p>No one-size-fits-all solutions — every site is designed around its purpose.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">03</span>
+            <h3>Designed to Perform</h3>
+            <p>Fast, responsive and optimised for modern users.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">04</span>
+            <h3>Made to Grow</h3>
+            <p>Your website should evolve as your business does.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">From idea to launch</h2>
+          <p class="section-head__desc">A clear process, from first conversation to the day your site goes live.</p>
+        </div>
+
+        <ol class="process-list">
+          <li class="process-step">
+            <span class="process-step__num">01</span>
+            <h3>Discover</h3>
+            <p>Understand the business, audience and goals.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num">02</span>
+            <h3>Design</h3>
+            <p>Shape the visual direction and user experience.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num">03</span>
+            <h3>Build</h3>
+            <p>Turn the design into a responsive, functional website.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num">04</span>
+            <h3>Refine</h3>
+            <p>Review, test and polish every detail.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__num">05</span>
+            <h3>Launch</h3>
+            <p>Deploy the finished website.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">What we do</h2>
+          <p class="section-head__desc">Digital experiences built around your business — not the other way around.</p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service-item">
+            <span class="service-item__num">01</span>
+            <div class="service-item__body">
+              <h3>Web Development</h3>
+              <p>Custom-built websites that are fast, scalable and built to last.</p>
+            </div>
+          </li>
+          <li class="service-item">
+            <span class="service-item__num">02</span>
+            <div class="service-item__body">
+              <h3>UI / UX Design</h3>
+              <p>Interfaces designed around how people actually use them.</p>
+            </div>
+          </li>
+          <li class="service-item">
+            <span class="service-item__num">03</span>
+            <div class="service-item__body">
+              <h3>Landing Pages</h3>
+              <p>Focused, fast-loading pages built to turn visitors into leads.</p>
+            </div>
+          </li>
+          <li class="service-item">
+            <span class="service-item__num">04</span>
+            <div class="service-item__body">
+              <h3>E-commerce</h3>
+              <p>Online stores that make it easy to browse, buy and come back.</p>
+            </div>
+          </li>
+          <li class="service-item">
+            <span class="service-item__num">05</span>
+            <div class="service-item__body">
+              <h3>Custom Web Applications</h3>
+              <p>Tools and platforms built around the way your team works.</p>
+            </div>
+          </li>
+          <li class="service-item">
+            <span class="service-item__num">06</span>
+            <div class="service-item__body">
+              <h3>Website Redesign</h3>
+              <p>A modern rebuild for sites that have outgrown themselves.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SELECTED WORK ============ -->
+    <section class="work" id="work" style="display: none;">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">Selected work</h2>
+          <p class="section-head__desc">A look at what we've been building.</p>
+        </div>
+
+        <div class="work-list">
+
+          <article class="work-item">
+            <a href="#" class="work-item__visual work-item__visual--finflare" aria-label="View FinFlare case study">
+              <span class="mockup-tag">Concept Project</span>
+              <div class="site-mock site-mock--finflare">
+                <div class="site-mock__top">
+                  <span class="site-mock__logo"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__pill"></span>
+                </div>
+                <div class="site-mock__hero">
+                  <span class="site-mock__eyebrow"></span>
+                  <span class="site-mock__headline"></span>
+                  <span class="site-mock__headline site-mock__headline--short"></span>
+                  <span class="site-mock__btn"></span>
+                </div>
+                <div class="site-mock__panel">
+                  <span class="site-mock__chart"></span>
+                </div>
+              </div>
+            </a>
+            <div class="work-item__info">
+              <div class="work-item__meta">
+                <span>Financial Education · Community</span>
+              </div>
+              <h3 class="work-item__title">FinFlare</h3>
+              <p class="work-item__desc">A community platform concept for people learning to invest with confidence — clear data, calmer design.</p>
+              <div class="work-item__services">
+                <span>Brand Identity</span><span>Web Design</span><span>Development</span>
+              </div>
+              <a href="#" class="work-item__link">View Case Study <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="work-item work-item--reverse">
+            <a href="#" class="work-item__visual work-item__visual--lumiere" aria-label="View Lumière Interiors case study">
+              <span class="mockup-tag">Concept Project</span>
+              <div class="site-mock site-mock--lumiere">
+                <div class="site-mock__top">
+                  <span class="site-mock__logo"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__pill"></span>
+                </div>
+                <div class="site-mock__split">
+                  <div class="site-mock__split-text">
+                    <span class="site-mock__eyebrow"></span>
+                    <span class="site-mock__headline"></span>
+                    <span class="site-mock__headline site-mock__headline--short"></span>
+                  </div>
+                  <div class="site-mock__split-image"></div>
+                </div>
+              </div>
+            </a>
+            <div class="work-item__info">
+              <div class="work-item__meta">
+                <span>Interior Design Studio</span>
+              </div>
+              <h3 class="work-item__title">Lumière Interiors</h3>
+              <p class="work-item__desc">A portfolio site concept for a boutique design studio, built to let the work speak first.</p>
+              <div class="work-item__services">
+                <span>Web Design</span><span>Development</span>
+              </div>
+              <a href="#" class="work-item__link">View Case Study <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <a href="#" class="work-item__visual work-item__visual--orbit" aria-label="View Orbit case study">
+              <span class="mockup-tag">Concept Project</span>
+              <div class="site-mock site-mock--orbit">
+                <div class="site-mock__top">
+                  <span class="site-mock__logo"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__pill"></span>
+                </div>
+                <div class="site-mock__hero site-mock__hero--center">
+                  <span class="site-mock__eyebrow"></span>
+                  <span class="site-mock__headline"></span>
+                  <span class="site-mock__btn"></span>
+                </div>
+                <div class="site-mock__cards">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+            </a>
+            <div class="work-item__info">
+              <div class="work-item__meta">
+                <span>Fitness &amp; Coaching · SaaS</span>
+              </div>
+              <h3 class="work-item__title">Orbit</h3>
+              <p class="work-item__desc">A landing page and dashboard concept for a fitness coaching platform, built for sign-ups and daily use alike.</p>
+              <div class="work-item__services">
+                <span>Landing Page</span><span>Web App UI</span>
+              </div>
+              <a href="#" class="work-item__link">View Case Study <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="work-item work-item--reverse">
+            <a href="#" class="work-item__visual work-item__visual--terra" aria-label="View Terra and Co case study">
+              <span class="mockup-tag">Concept Project</span>
+              <div class="site-mock site-mock--terra">
+                <div class="site-mock__top">
+                  <span class="site-mock__logo"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__navline"></span>
+                  <span class="site-mock__pill"></span>
+                </div>
+                <div class="site-mock__shop">
+                  <span class="site-mock__product"></span>
+                  <span class="site-mock__product"></span>
+                  <span class="site-mock__product"></span>
+                </div>
+              </div>
+            </a>
+            <div class="work-item__info">
+              <div class="work-item__meta">
+                <span>Sustainable Goods · E-commerce</span>
+              </div>
+              <h3 class="work-item__title">Terra &amp; Co</h3>
+              <p class="work-item__desc">An online store concept for a sustainable homeware brand, designed around slow, considered browsing.</p>
+              <div class="work-item__services">
+                <span>E-commerce</span><span>Brand Identity</span>
+              </div>
+              <a href="#" class="work-item__link">View Case Study <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL PROOF ============ -->
+    <section class="proof" id="proof">
+      <div class="container proof__inner">
+        <p class="proof__note">
+          WebMint is a new studio — this site is our first piece of work. Real project
+          numbers will live in this section as we take on new clients.
+        </p>
+        <ul class="proof__stats">
+          <li><span class="proof__value" data-target="0">—</span><span class="proof__label">Projects Completed</span></li>
+          <li><span class="proof__value" data-target="0">—</span><span class="proof__label">Businesses Served</span></li>
+          <li><span class="proof__value" data-target="0">—</span><span class="proof__label">Industries</span></li>
+          <li><span class="proof__value" data-target="0">—</span><span class="proof__label">Client Satisfaction</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT US ============ -->
+    <section class="about-us" id="about-us" style="padding-block: var(--section-pad);">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">About Us</h2>
+          <p class="section-head__desc">Meet the team behind WebMint.</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Member 1: Abdul Rehan -->
+          <div class="team-member">
+            <div class="team-member__pic">
+              <img src="Assets/Abdul%20Rehan%20(1).jpg" alt="Abdul Rehan" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 class="team-member__name">Abdul Rehan</h3>
+            <p class="team-member__role">Founder</p>
+            <div class="team-member__social">
+              <a href="mailto:abdulrehanoffical@gmail.com" aria-label="Email Abdul Rehan">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/abdulrehan90" target="_blank" rel="noopener noreferrer" aria-label="Abdul Rehan LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="tel:7001810517" aria-label="Call Abdul Rehan">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Member 2: Satyaki Das -->
+          <div class="team-member">
+            <div class="team-member__pic">
+              <img src="Assets/Satyaki%20Das.jpg" alt="Satyaki Das" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 class="team-member__name">Satyaki Das</h3>
+            <p class="team-member__role">Co-Founder &amp; Operations Head</p>
+            <div class="team-member__social">
+              <a href="mailto:dsatyaki756@gmail.com" aria-label="Email Satyaki Das">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/satyaki-das-695124388" target="_blank" rel="noopener noreferrer" aria-label="Satyaki Das LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="tel:+917585021077" aria-label="Call Satyaki Das">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Member 3: Surjayu Sanyal -->
+          <div class="team-member">
+            <div class="team-member__pic">
+              <img src="Assets/Surjayu%20Sanyal.jpg" alt="Surjayu Sanyal" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 class="team-member__name">Surjayu Sanyal</h3>
+            <p class="team-member__role">Co-Founder &amp; Marketing Head</p>
+            <div class="team-member__social">
+              <a href="mailto:sanyalsurjayu@gmail.com" aria-label="Email Surjayu Sanyal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/surjayu-sanyal-2761a1424" target="_blank" rel="noopener noreferrer" aria-label="Surjayu Sanyal LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="tel:+918017150270" aria-label="Call Surjayu Sanyal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / FINAL CTA ============ -->
+    <section class="contact" id="contact">
+      <span class="contact__w" aria-hidden="true">W</span>
+      <div class="container contact__inner">
+        <div class="contact__intro">
+          <h2 class="contact__title">Ready to build something?</h2>
+          <p class="contact__desc">Tell us what you're working on. We'll take it from there.</p>
+
+          <ul class="contact__direct">
+            <li>
+              <span>Email</span>
+              <a href="mailto:agency.webmint@gmail.com">agency.webmint@gmail.com</a>
+            </li>
+            <li>
+              <span>Call us on</span>
+              <a href="tel:+918017150270">+91 80171 50270</a><br>
+              <a href="tel:+917585021077">+91 75850 21077</a>
+            </li>
+            <li style="margin-top: 0.5rem;">
+              <span>Direct message</span>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem; line-height: 1.4;">Send us a DM on WhatsApp for quick responses.</p>
+              <div>
+                <a href="https://wa.me/917001810517" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; font-size: 1.1rem; padding: 0.2rem 0; margin-top: 0.3rem;">Let's Talk <span aria-hidden="true">→</span></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form action="https://formsubmit.co/agency.webmint@gmail.com" method="POST" class="form" id="enquiryForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="fName">Name</label>
+              <input type="text" id="fName" name="name" autocomplete="name" required>
+              <span class="form__error" data-error-for="fName"></span>
+            </div>
+            <div class="form__group">
+              <label for="fCompany">Business / Company</label>
+              <input type="text" id="fCompany" name="company" autocomplete="organization">
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__group">
+              <label for="fEmail">Email</label>
+              <input type="email" id="fEmail" name="email" autocomplete="email" required>
+              <span class="form__error" data-error-for="fEmail"></span>
+            </div>
+            <div class="form__group">
+              <label for="fPhone">Phone / WhatsApp</label>
+              <input type="tel" id="fPhone" name="phone" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label for="fNeed">What do you need?</label>
+            <select id="fNeed" name="need" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="New Website">New Website</option>
+              <option value="Website Redesign">Website Redesign</option>
+              <option value="Landing Page">Landing Page</option>
+              <option value="E-commerce">E-commerce</option>
+              <option value="Web Application">Web Application</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="form__error" data-error-for="fNeed"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="fMessage">Project description</label>
+            <textarea id="fMessage" name="message" rows="4" required placeholder="Tell us a little about what you're building..."></textarea>
+            <span class="form__error" data-error-for="fMessage"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">Send Enquiry <span aria-hidden="true">→</span></button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__glow" aria-hidden="true"></div>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="nav__brand" aria-label="WebMint — home" style="align-items: center; gap: 0.5rem;">
+          <span class="nav__mark nav__mark--footer" aria-hidden="true" style="width: 40px; height: 40px; display: inline-flex;">
+            <img src="Assets/webmint-icon.svg" alt="WebMint Logo" style="width: 100%; height: 100%; object-fit: contain;">
+          </span>
+          <span class="nav__wordmark nav__wordmark--footer" style="font-size: 1.5rem;">WebMint</span>
+        </a>
+        <p class="footer__tagline" style="margin-top: 1.5rem;">Building better websites for better businesses.</p>
+      </div>
+
+      <div class="footer__links-group">
+        <h4 class="footer__heading">Explore</h4>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#top">Home</a>
+          <a href="#services">Services</a>
+          <!-- <a href="#work">Work</a> -->
+          <a href="#about-us">About Us</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer__social-group">
+        <h4 class="footer__heading">Connect</h4>
+        <ul class="footer__social">
+          <li><a href="https://www.instagram.com/webmint.agency/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer__social-icon"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a></li>
+          <li><a href="mailto:agency.webmint@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer__social-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 WebMint. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+      </div>
+      <button class="footer__totop" id="backToTop" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
