@@ -1,4 +1,4 @@
-# WebMint — Agency Website
+# WebMint
 
 A one-page marketing site for WebMint, a web development & digital experience
 agency. Built with plain HTML5, CSS3 and vanilla JavaScript — no build step,
